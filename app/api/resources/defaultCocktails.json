@@ -4,7 +4,7 @@
         "id": "mjt123",
         "name": "Mojito",
         "ingredients": ["mint leaves", "lime", "simple syrup", "white rum", "soda water", "ice cubes"],
-        "recipe": [
+        "recipet": [
           "Muddle mint leaves and lime in a glass.",
           "Add simple syrup and white rum.",
           "Top up with soda water and stir.",
@@ -18,7 +18,7 @@
         "id": "mtn456",
         "name": "Martini",
         "ingredients": ["gin", "dry vermouth", "lemon twist or olive"],
-        "recipe": [
+        "recipet": [
           "Chill the glass by placing it in the freezer or filling it with ice water.",
           "In a mixing glass, combine gin and dry vermouth with ice.",
           "Stir or shake well, then strain into the chilled glass.",
@@ -26,13 +26,13 @@
         ],
         "history": "The Martini is a classic cocktail with disputed origins, believed to have originated in the late 19th century.",
         "tags": ["martini glass", "gin", "formal"],
-        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/martini.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
+        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/christmas_champagne_cocktail.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
       },
       {
         "id": "mgr789",
         "name": "Margarita",
         "ingredients": ["tequila", "triple sec", "lime juice", "salt for rimming"],
-        "recipe": [
+        "recipet": [
           "Rub the rim of the glass with the lime wedge to moisten it.",
           "Dip the rim in salt to coat it.",
           "In a shaker with ice, combine tequila, triple sec, and lime juice.",
@@ -40,13 +40,13 @@
         ],
         "history": "The Margarita is a popular Mexican cocktail with a disputed origin, possibly dating back to the 1930s.",
         "tags": ["short glass", "tequila", "summer party"],
-        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/margarita.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
+        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/christmas_champagne_cocktail.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
       },
       {
         "id": "ofs234",
         "name": "Old Fashioned",
         "ingredients": ["bourbon or rye whiskey", "sugar cube", "angostura bitters", "orange twist"],
-        "recipe": [
+        "recipet": [
           "Place the sugar cube in a glass and saturate it with bitters.",
           "Muddle the sugar and bitters together.",
           "Add a large ice cube and pour the whiskey over it.",
@@ -54,26 +54,26 @@
         ],
         "history": "The Old Fashioned is a classic cocktail that dates back to the early 19th century.",
         "tags": ["rocks glass", "whiskey", "casual"],
-        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/old_fashioned.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
+        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/christmas_champagne_cocktail.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
       },
       {
         "id": "ngr345",
         "name": "Negroni",
         "ingredients": ["gin", "sweet vermouth", "Campari", "orange slice or twist"],
-        "recipe": [
+        "recipet": [
           "Fill a glass with ice cubes.",
           "Pour equal parts gin, sweet vermouth, and Campari over the ice.",
           "Stir well and garnish with an orange slice or twist."
         ],
         "history": "The Negroni is an Italian cocktail that originated in Florence, Italy, in the early 20th century.",
         "tags": ["rocks glass", "gin", "casual"],
-        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/negroni.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
+        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/christmas_champagne_cocktail.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
       },
       {
         "id": "cos678",
         "name": "Cosmopolitan",
         "ingredients": ["vodka", "triple sec", "cranberry juice", "lime juice", "orange twist"],
-        "recipe": [
+        "recipet": [
           "Fill a shaker with ice cubes.",
           "Add vodka, triple sec, cranberry juice, and lime juice to the shaker.",
           "Shake well and strain into a chilled martini glass.",
@@ -81,13 +81,13 @@
         ],
         "history": "The Cosmopolitan gained popularity in the 1990s and is often associated with cosmopolitan cities like New York.",
         "tags": ["martini glass", "vodka", "party"],
-        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/cosmopolitan.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
+        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/christmas_champagne_cocktail.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
       },
       {
         "id": "wsh890",
         "name": "Whiskey Sour",
         "ingredients": ["bourbon or rye whiskey", "simple syrup", "lemon juice", "orange slice or cherry"],
-        "recipe": [
+        "recipet": [
           "Fill a shaker with ice cubes.",
           "Add whiskey, simple syrup, and lemon juice to the shaker.",
           "Shake well and strain into a rocks glass filled with ice.",
@@ -95,26 +95,26 @@
         ],
         "history": "The Whiskey Sour is a classic cocktail that dates back to the mid-19th century.",
         "tags": ["rocks glass", "whiskey", "casual"],
-        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/whiskey_sour.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
+        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/christmas_champagne_cocktail.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
       },
       {
         "id": "dqrs567",
         "name": "Daiquiri",
         "ingredients": ["white rum", "simple syrup", "lime juice"],
-        "recipe": [
+        "recipet": [
           "Fill a shaker with ice cubes.",
           "Add white rum, simple syrup, and lime juice to the shaker.",
           "Shake well and strain into a chilled martini or coupe glass."
         ],
         "history": "The Daiquiri is a classic Cuban cocktail that gained popularity in the early 20th century.",
         "tags": ["martini glass", "white rum", "summer party"],
-        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/daiquiri.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
+        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/christmas_champagne_cocktail.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
       },
       {
         "id": "pnc234",
         "name": "Piña Colada",
         "ingredients": ["white rum", "coconut cream", "pineapple juice", "pineapple slice and maraschino cherry for garnish"],
-        "recipe": [
+        "recipet": [
           "Fill a blender with ice cubes.",
           "Add white rum, coconut cream, and pineapple juice to the blender.",
           "Blend until smooth and pour into a chilled glass.",
@@ -122,26 +122,26 @@
         ],
         "history": "The Piña Colada is a tropical cocktail that originated in Puerto Rico in the 1950s.",
         "tags": ["tropical glass", "white rum", "summer party"],
-        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/pina_colada.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
+        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/christmas_champagne_cocktail.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
       },
       {
         "id": "gtc567",
         "name": "Gin and Tonic",
         "ingredients": ["gin", "tonic water", "lime wedge or slice"],
-        "recipe": [
+        "recipet": [
           "Fill a glass with ice cubes.",
           "Pour gin over the ice and top up with tonic water.",
           "Stir gently and garnish with a lime wedge or slice."
         ],
         "history": "The Gin and Tonic is a classic cocktail that originated in British colonial India as a way to mask the bitter taste of quinine in tonic water.",
         "tags": ["highball glass", "gin", "casual"],
-        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/gin_and_tonic.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
+        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/christmas_champagne_cocktail.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
       },
       {
         "id": "mch876",
         "name": "Mai Tai",
         "ingredients": ["light rum", "dark rum", "lime juice", "orgeat syrup", "orange liqueur", "mint sprig for garnish"],
-        "recipe": [
+        "recipet": [
           "Fill a shaker with ice cubes.",
           "Add light rum, dark rum, lime juice, orgeat syrup, and orange liqueur to the shaker.",
           "Shake well and strain into a rocks glass filled with crushed ice.",
@@ -149,13 +149,13 @@
         ],
         "history": "The Mai Tai is a tiki cocktail that originated in the 1940s and gained popularity in tiki bars.",
         "tags": ["tiki glass", "rum", "party"],
-        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/mai_tai.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
+        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/christmas_champagne_cocktail.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
       },
       {
         "id": "smr567",
         "name": "Strawberry Margarita",
         "ingredients": ["tequila", "triple sec", "lime juice", "strawberry puree", "salt for rimming", "fresh strawberries for garnish"],
-        "recipe": [
+        "recipet": [
           "Rub the rim of the glass with the lime wedge to moisten it.",
           "Dip the rim in salt to coat it.",
           "In a shaker with ice, combine tequila, triple sec, lime juice, and strawberry puree.",
@@ -164,13 +164,13 @@
         ],
         "history": "A fruity variation of the classic Margarita, the Strawberry Margarita is perfect for summer gatherings.",
         "tags": ["short glass", "tequila", "summer party"],
-        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/strawberry_margarita.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
+        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/christmas_champagne_cocktail.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
       },
       {
         "id": "bdm234",
         "name": "Blue Lagoon",
         "ingredients": ["vodka", "blue curaçao", "lemonade", "lemon slice for garnish", "maraschino cherry for garnish"],
-        "recipe": [
+        "recipet": [
           "Fill a glass with ice cubes.",
           "Pour vodka and blue curaçao over the ice.",
           "Top up with lemonade and stir gently.",
@@ -178,19 +178,19 @@
         ],
         "history": "The Blue Lagoon is a vibrant and refreshing cocktail known for its striking blue color.",
         "tags": ["highball glass", "vodka", "party"],
-        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/blue_lagoon.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
+        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/christmas_champagne_cocktail.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
       },
       {
         "id": "pnc789",
         "name": "Peach Bellini",
         "ingredients": ["peach puree", "Prosecco"],
-        "recipe": [
+        "recipet": [
           "Add peach puree to a chilled champagne flute.",
           "Top up with Prosecco and stir gently."
         ],
         "history": "The Peach Bellini is a classic Italian cocktail made with peach puree and Prosecco.",
         "tags": ["champagne flute", "Prosecco", "brunch"],
-        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/peach_bellini.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
+        "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/christmas_champagne_cocktail.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
       }
     ]
 }
