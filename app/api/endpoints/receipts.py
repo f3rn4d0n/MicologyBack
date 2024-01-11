@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, Depends
 from fastapi.responses import JSONResponse
-from sqlalchemy.ext.asyncio import AsyncSession
+#from sqlalchemy.ext.asyncio import AsyncSession
 from app.api.data import models, crud
 from app.api.data.models import Cocktail
 #from app.api.data.database import database, metadata
