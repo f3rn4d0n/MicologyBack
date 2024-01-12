@@ -1,7 +1,7 @@
 #from sqlalchemy import Column, Integer, String
 #from sqlalchemy.ext.declarative import declarative_base
 from pydantic import BaseModel, Field
-from typing import Optional
+from typing import Optional, List
 
 #Base = declarative_base()
 
@@ -12,13 +12,13 @@ class Cocktail(BaseModel):
     #id = Column(Integer, primary_key=True, index=True)
     name: str = Field(min_length=5, max_length=30)
     #name = Column(String, index=True)
-    ingredients: list[str]
+    ingredients: List[str]
     #ingredients = Column(String)
-    recipet: list[str]
+    recipet: List[str]
     #recipe = Column(String)
     #history = Column(String)
     history: str = Field(max_length=500)
-    tags: list[str]
+    tags: List[str]
     image: str = Field(max_length=500)
     
     class Config:
