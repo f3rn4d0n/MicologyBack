@@ -4,7 +4,6 @@ from fastapi.responses import JSONResponse
 from app.api.data import models, crud
 from app.api.data.models import Cocktail
 #from app.api.data.database import database, metadata
-from pydantic import Field
 import json
 
 router = APIRouter()
@@ -48,16 +47,30 @@ async def get_cocktail():
   
 @router.post("/cocktail")
 async def create_cocktail(cocktail: Cocktail): 
+  if not listRecipes:
+    new_id = 1
+  else:
+    last_cocktail = listRecipes[-1]
+    new_id = last_cocktail.id + 1
+  cocktail.id = new_id
   listRecipes.append(cocktail)
   return cocktail
   
-  
 @router.put("/cocktail/{item_id}")
 async def update_cocktail(item_id: int, cocktail: Cocktail): 
-  listRecipes[item_id] = cocktail
-  return cocktail
+  resultados = list(filter(lambda x: x.id == item_id, listRecipes))
+  if resultados:
+    item_founded = listRecipes.index(resultados[0])
+    cocktail.id = listRecipes[item_founded].id
+    listRecipes[item_founded] = cocktail
+    return cocktail
+  raise HTTPException(status_code=404, detail="cocktail not found")
   
 @router.delete("/cocktail/{item_id}")
 async def delete_cocktail(item_id: int): 
-  del listRecipes[item_id]
-  return {"message": "Item deleted"}
+  resultados = list(filter(lambda x: x.id == item_id, listRecipes))
+  if resultados:
+    item_founded = listRecipes.index(resultados[0])
+    del listRecipes[item_founded]
+    return {"message": "Item deleted"}
+  raise HTTPException(status_code=404, detail="cocktail not found")

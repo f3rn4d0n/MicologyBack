@@ -17,9 +17,9 @@ class Cocktail(BaseModel):
     recipet: List[str]
     #recipe = Column(String)
     #history = Column(String)
-    history: str = Field(max_length=500)
-    tags: List[str]
-    image: str = Field(max_length=500)
+    history: Optional[str] = Field(None, max_length=500)
+    tags: Optional[List[str]] = Field(None)
+    image: Optional[str] = Field(None, max_length=500)
     
     class Config:
         schema_extra = {
