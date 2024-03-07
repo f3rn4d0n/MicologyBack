@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.api.endpoints import settings, receipts, welcomePage
+from app.api.endpoints import settings, receipts, welcomePage, cocktails
 #from app.api.data.database import database, metadata
 
 app = FastAPI()
@@ -14,6 +14,7 @@ app.version = settings.apiVersion
 #async def shutdown_db_client():
 #    await database.disconnect()
 
-app.include_router(welcomePage.router, prefix="", tags=["home"])
-app.include_router(settings.router, prefix="", tags=["appState"])
-app.include_router(receipts.router, prefix="", tags=["recipes"])
+app.include_router(welcomePage.router, prefix="", tags=["Home"])
+app.include_router(settings.router, prefix="", tags=["AppState"])
+app.include_router(receipts.router, prefix="", tags=["Recipes"])
+app.include_router(cocktails.router, prefix="", tags=["Cocktails"])

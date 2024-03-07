@@ -5,4 +5,4 @@ router = APIRouter()
 
 @router.get("/") 
 def home():
-    return HTMLResponse('<h1>Recipes</h1>')
+    return HTMLResponse('<h1>Cocktails</h1>')
