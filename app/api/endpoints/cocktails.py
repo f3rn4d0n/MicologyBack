@@ -13,23 +13,48 @@ router = APIRouter()
 
 listRecipes = []
 
+@router.get("/resume")
+async def get_resume():
+  return {
+    "data": [
+      {
+        "name": "For you",
+        "section": "foryou",
+        "data": listRecipes[0:10] 
+      },
+      {
+        "name": "Favorites",
+        "section": "favorites",
+        "data": listRecipes[0:10]
+      },
+      {
+        "name": "Season",
+        "section": "season",
+        "data": listRecipes[0:10]
+      }
+    ]
+  }
+
 @router.get("/cocktail")
 async def get_cocktail(
-  limit: int = Query(100, ge= 0),
+  limit: int = Query(20, ge= 0),
   page: int = Query(0, ge= 0),
 ): 
   origin = limit * (page - 1)
+  offset = origin
+  if offset < 0:
+    offset = 0
   end = origin + limit
   total_pages = (float(len(listRecipes)) / float(limit))
   return {
-    "data": listRecipes[origin:end],
     "pagination": {
       "total": len(listRecipes),
       "limit": limit,
-      "offset": origin,
+      "offset": offset,
       "total_pages": math.ceil(total_pages),
       "current_page": page
-    } 
+    },
+    "data": listRecipes[origin:end] 
   }
   
 @router.post("/cocktail")
