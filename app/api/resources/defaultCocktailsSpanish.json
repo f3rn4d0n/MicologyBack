@@ -1,0 +1,335 @@
+[
+    {
+      "name": "Old Fashioned",
+      "ingredients": ["whisky bourbon o de centeno", "azúcar blanco", "bitter de Angostura", "cáscara de naranja"],
+      "receipt": [
+        "Colocar el azúcar en un vaso y saturarlo con el bitter.",
+        "Machacar el azúcar y el bitter juntos.",
+        "Agregar un cubito de hielo grande y verter el whisky sobre él.",
+        "Revolver suavemente y adornar con una cáscara de naranja."
+      ],
+      "history": "El Old Fashioned es un cóctel clásico que se remonta a principios del siglo XIX.",
+      "tags": ["vaso bajo", "whisky", "formal"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/old_fashioned.jpg?alt=media&token=9b7da4d4-cd8d-4a48-97c2-da2836e0d339"
+    },
+    {
+      "name": "Margarita",
+      "ingredients": ["tequila", "licor de naranja", "jugo de lima", "azúcar o jarabe de agave", "sal"],
+      "receipt": [
+        "Mojar el borde de un vaso con jugo de lima y escarcharlo con sal.",
+        "En una coctelera con hielo, mezclar el tequila, licor de naranja, jugo de lima y azúcar o jarabe de agave.",
+        "Agitar bien y colar la mezcla en el vaso preparado con hielo.",
+        "Adornar con una rodaja de lima."
+      ],
+      "history": "La Margarita es un cóctel mexicano tradicional, con raíces que se remontan alrededor de la década de 1930.",
+      "tags": ["vaso de cóctel", "tequila", "clásico"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/margarita.jpg?alt=media&token=8d2b0e7b-90c8-4cb4-bff3-5dd0ec9d9c88"
+    },
+    {
+      "name": "Martini",
+      "ingredients": ["ginebra", "vermut seco", "aceituna o cáscara de limón"],
+      "receipt": [
+        "En un vaso mezclador con hielo, combinar la ginebra y el vermut seco.",
+        "Revolver o agitar la mezcla hasta que esté bien fría.",
+        "Colar la mezcla en una copa de cóctel previamente enfriada.",
+        "Adornar con una aceituna o una cáscara de limón."
+      ],
+      "history": "El Martini es uno de los cócteles más icónicos y elegantes del mundo, con una historia que se remonta al siglo XIX.",
+      "tags": ["copa de cóctel", "ginebra", "clásico"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/martini.jpg?alt=media&token=2a95a76e-4547-4d51-ae25-014b2fb3ad24"
+    },
+    {
+      "name": "Daiquiri",
+      "ingredients": ["ron blanco", "jugo de lima", "jarabe simple"],
+      "receipt": [
+        "En una coctelera con hielo, combinar el ron blanco, el jugo de lima y el jarabe simple.",
+        "Agitar bien y colar la mezcla en una copa de cóctel previamente enfriada.",
+        "Adornar con una rodaja de lima."
+      ],
+      "history": "El Daiquiri es un cóctel clásico cubano, nombrado en honor a una playa y una mina de hierro cerca de Santiago de Cuba.",
+      "tags": ["copa de cóctel", "ron", "clásico"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/daiquiri.jpg?alt=media&token=dc19a78c-ec39-49cd-a053-2753e1218a91"
+    },
+    {
+      "name": "Mojito",
+      "ingredients": ["ron blanco", "azúcar blanca", "jugo de lima", "menta fresca", "agua con gas"],
+      "receipt": [
+        "En un vaso, machacar las hojas de menta con el azúcar y el jugo de lima.",
+        "Llenar el vaso con hielo picado y verter el ron blanco sobre él.",
+        "Agregar agua con gas y revolver suavemente.",
+        "Adornar con una ramita de menta y una rodaja de lima."
+      ],
+      "history": "El Mojito es un cóctel cubano que se cree que se originó en el siglo XVI, durante la época en que los piratas saqueaban las Indias Occidentales.",
+      "tags": ["vaso alto", "ron", "refrescante"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/mojito.jpg?alt=media&token=27e4301b-d6e6-4a53-8f46-21f23e9d5cb3"
+    },
+    {
+      "name": "Bloody Mary",
+      "ingredients": ["vodka", "jugo de tomate", "zumo de limón", "salsa inglesa", "salsa picante", "sal y pimienta", "apio"],
+      "receipt": [
+        "Salpimentar el vaso y llenarlo con hielo.",
+        "Añadir el vodka, el jugo de tomate, el zumo de limón, la salsa inglesa y la salsa picante.",
+        "Revolver suavemente y adornar con una ramita de apio.",
+        "Opcionalmente, decorar con una rodaja de limón o lima."
+      ],
+      "history": "El Bloody Mary es un cóctel clásico que se originó en el siglo XIX. Su historia está llena de controversia y mitos sobre su verdadero origen.",
+      "tags": ["vaso alto", "vodka", "picante"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/bloody_mary.jpg?alt=media&token=65ef0ecf-dc38-45c0-baae-68a05c5489ae"
+    },
+    {
+      "name": "Piña Colada",
+      "ingredients": ["ron blanco", "crema de coco", "jugo de piña", "crema"],
+      "receipt": [
+        "En una batidora, combinar el ron blanco, la crema de coco, el jugo de piña y la crema.",
+        "Batir hasta obtener una mezcla suave y homogénea.",
+        "Servir en un vaso con hielo y adornar con una rodaja de piña y una cereza.",
+        "Opcionalmente, añadir una pajita."
+      ],
+      "history": "La Piña Colada es un cóctel tropical originario de Puerto Rico. Su nombre significa 'piña colada' en español.",
+      "tags": ["vaso alto", "ron", "tropical"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/pina_colada.jpg?alt=media&token=58e0f6c3-4c32-463a-a9a2-7d3ae60ff977"
+    },
+    {
+      "name": "Manhattan",
+      "ingredients": ["whisky bourbon", "vermut rojo", "bitter de Angostura", "cereza"],
+      "receipt": [
+        "En un vaso mezclador con hielo, combinar el whisky bourbon, el vermut rojo y el bitter de Angostura.",
+        "Revolver o agitar la mezcla hasta que esté bien fría.",
+        "Colar la mezcla en una copa de cóctel previamente enfriada.",
+        "Adornar con una cereza."
+      ],
+      "history": "El Manhattan es un cóctel clásico que se cree que se originó en la década de 1870, en el club social Manhattan de Nueva York.",
+      "tags": ["copa de cóctel", "whisky", "clásico"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/manhattan.jpg?alt=media&token=18fd50dc-5002-4c15-bb64-bb8e6ebea16e"
+    },
+    {
+      "name": "Cosmopolitan",
+      "ingredients": ["vodka cítrico", "licor de naranja", "jugo de arándano", "jugo de lima"],
+      "receipt": [
+        "En una coctelera con hielo, mezclar el vodka cítrico, el licor de naranja, el jugo de arándano y el jugo de lima.",
+        "Agitar bien y colar la mezcla en una copa de cóctel previamente enfriada.",
+        "Adornar con una rodaja de lima o una cáscara de naranja."
+      ],
+      "history": "El Cosmopolitan es un cóctel moderno que se popularizó en la década de 1990, especialmente gracias a su inclusión en la serie de televisión 'Sex and the City'.",
+      "tags": ["copa de cóctel", "vodka", "frutal"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/cosmopolitan.jpg?alt=media&token=4de1eef2-b84c-477e-b899-0ee7a21b06b7"
+    },
+    {
+      "name": "Moscow Mule",
+      "ingredients": ["vodka", "jugo de lima", "ginger beer"],
+      "receipt": [
+        "En un vaso de cobre, combinar el vodka y el jugo de lima.",
+        "Llenar el vaso con hielo y añadir ginger beer al gusto.",
+        "Revolver suavemente y adornar con una rodaja de lima y una ramita de menta."
+      ],
+      "history": "El Moscow Mule es un cóctel de origen estadounidense que se popularizó en la década de 1940. Su distintivo vaso de cobre es parte de su encanto.",
+      "tags": ["vaso de cobre", "vodka", "refrescante"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/moscow_mule.jpg?alt=media&token=ab595184-46c4-4a8c-9c44-06428912786a"
+    },
+    {
+      "name": "Caipirinha",
+      "ingredients": ["cachaça", "lima", "azúcar blanca"],
+      "receipt": [
+        "Cortar la lima en trozos y colocarla en un vaso.",
+        "Añadir el azúcar y machacar suavemente los trozos de lima para extraer el jugo y los aceites esenciales.",
+        "Llenar el vaso con hielo y verter la cachaça sobre él.",
+        "Revolver suavemente y decorar con una rodaja de lima."
+      ],
+      "history": "La Caipirinha es un cóctel brasileño tradicional, hecho con cachaça, un destilado de caña de azúcar. Es el cóctel nacional de Brasil.",
+      "tags": ["vaso bajo", "cachaça", "refrescante"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/caipirinha.jpg?alt=media&token=30d6b5ee-011b-4984-99a0-c7201a98a890"
+    },
+    {
+      "name": "Mint Julep",
+      "ingredients": ["whisky bourbon", "azúcar blanca", "hojas de menta", "agua"],
+      "receipt": [
+        "En un vaso de julep o un vaso alto, colocar las hojas de menta y el azúcar.",
+        "Añadir un chorrito de agua y machacar suavemente para liberar el aroma de la menta.",
+        "Llenar el vaso con hielo picado y verter el whisky bourbon sobre él.",
+        "Revolver suavemente y adornar con una ramita de menta."
+      ],
+      "history": "El Mint Julep es un cóctel sureño clásico, especialmente popular durante el Derby de Kentucky. Se cree que se originó en el siglo XVIII.",
+      "tags": ["vaso de julep", "whisky", "refrescante"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/mint_julep.jpg?alt=media&token=373b4e1d-c3c5-4a6a-b034-bdcb013b3cb4"
+    },
+    {
+      "name": "Negroni",
+      "ingredients": ["ginebra", "vermut rojo", "Campari", "rodaja de naranja"],
+      "receipt": [
+        "En un vaso mezclador con hielo, combinar la ginebra, el vermut rojo y el Campari.",
+        "Revolver o agitar la mezcla hasta que esté bien fría.",
+        "Colar la mezcla en una copa de cóctel previamente enfriada.",
+        "Adornar con una rodaja de naranja."
+      ],
+      "history": "El Negroni es un cóctel italiano clásico que se remonta a principios del siglo XX. Fue inventado en Florencia por el conde Camillo Negroni.",
+      "tags": ["copa de cóctel", "ginebra", "amargo"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/negroni.jpg?alt=media&token=d8e69f6b-eb39-47b1-8b36-f272f19c2a0a"
+    },
+    {
+      "name": "Sazerac",
+      "ingredients": ["whisky de centeno", "azúcar blanco", "Peychaud's Bitters", "absenta", "cáscara de limón"],
+      "receipt": [
+        "En un vaso mezclador, mezclar el azúcar blanco y Peychaud's Bitters.",
+        "Agregar el whisky de centeno y revolver bien.",
+        "Enjuagar un vaso con absenta y verter el exceso.",
+        "Colar la mezcla en el vaso preparado y exprimir una cáscara de limón sobre ella.",
+        "Descartar la cáscara de limón o dejarla en el vaso como adorno."
+      ],
+      "history": "El Sazerac es un cóctel de whisky clásico originario de Nueva Orleans, Louisiana. Se considera uno de los cócteles más antiguos y emblemáticos de Estados Unidos.",
+      "tags": ["vaso bajo", "whisky", "amargo"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/sazerac.jpg?alt=media&token=2c808c1b-b58b-46cd-b2d8-19478a6e77bf"
+    },
+    {
+      "name": "Tom Collins",
+      "ingredients": ["ginebra", "jugo de limón", "jarabe simple", "agua con gas", "rodaja de limón", "cereza"],
+      "receipt": [
+        "En un vaso Collins con hielo, combinar la ginebra, el jugo de limón y el jarabe simple.",
+        "Revolver suavemente y llenar el vaso con agua con gas.",
+        "Decorar con una rodaja de limón y una cereza."
+      ],
+      "history": "El Tom Collins es un cóctel clásico de ginebra que se originó en el siglo XIX. Su nombre proviene de la broma telefónica 'Tom Collins' que se hizo popular en la década de 1870.",
+      "tags": ["vaso Collins", "ginebra", "refrescante"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/tom_collins.jpg?alt=media&token=56c6c270-daf8-465b-b870-8fb54e7dc882"
+    },
+    {
+      "name": "Whiskey Sour",
+      "ingredients": ["whisky bourbon", "jugo de limón", "jarabe simple", "clara de huevo", "cereza"],
+      "receipt": [
+        "En una coctelera sin hielo, combinar el whisky bourbon, el jugo de limón, el jarabe simple y la clara de huevo.",
+        "Agitar vigorosamente durante unos segundos.",
+        "Agregar hielo a la coctelera y agitar nuevamente.",
+        "Colar la mezcla en un vaso con hielo y decorar con una cereza."
+      ],
+      "history": "El Whiskey Sour es un cóctel clásico que se remonta al siglo XIX. Su combinación de sabores agridulces lo convierte en un favorito entre los bebedores de whisky.",
+      "tags": ["vaso bajo", "whisky", "agridulce"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/whiskey_sour.jpg?alt=media&token=034e03c3-209b-4588-a4cc-b7d1064651b2"
+    },
+    {
+      "name": "White Russian",
+      "ingredients": ["vodka", "licor de café", "crema"],
+      "receipt": [
+        "En un vaso bajo con hielo, combinar el vodka y el licor de café.",
+        "Agregar la crema por encima y revolver suavemente.",
+        "Opcionalmente, espolvorear un poco de cacao en polvo sobre la crema."
+      ],
+      "history": "El White Russian es un cóctel clásico que se popularizó en la década de 1970 gracias a la película 'El Gran Lebowski'. Su sabor suave y cremoso lo convierte en una opción indulgente para disfrutar ocasionalmente.",
+      "tags": ["vaso bajo", "vodka", "cremoso"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/white_russian.jpg?alt=media&token=e30f61f6-2683-4824-9f37-4e48d6c2f8b9"
+    },
+    {
+      "name": "Blue Lagoon",
+      "ingredients": ["vodka", "curacao azul", "limonada", "rodaja de limón"],
+      "receipt": [
+        "En un vaso alto con hielo, combinar el vodka y el curacao azul.",
+        "Llenar el vaso con limonada y revolver suavemente.",
+        "Decorar con una rodaja de limón."
+      ],
+      "history": "El Blue Lagoon es un cóctel tropical que se originó en los años 60 o 70. Su color azul brillante y su sabor refrescante lo convierten en una opción popular para fiestas y eventos sociales.",
+      "tags": ["vaso alto", "vodka", "tropical"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/blue_lagoon.jpg?alt=media&token=74c5f7a1-57de-426d-8978-d109ca4601d6"
+    },
+    {
+      "name": "Singapore Sling",
+      "ingredients": ["ginebra", "licor de cereza", "Cointreau", "benedictine", "jugo de piña", "jugo de lima", "soda"],
+      "receipt": [
+        "En una coctelera con hielo, mezclar la ginebra, el licor de cereza, el Cointreau, el benedictine, el jugo de piña y el jugo de lima.",
+        "Agitar bien y colar la mezcla en un vaso alto con hielo.",
+        "Completar con soda y revolver suavemente.",
+        "Decorar con una rodaja de piña y una cereza."
+      ],
+      "history": "El Singapore Sling es un cóctel clásico de origen singapurense que se remonta a principios del siglo XX. Se cree que fue creado en el famoso hotel Raffles de Singapur.",
+      "tags": ["vaso alto", "ginebra", "frutal"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/singapore_sling.jpg?alt=media&token=725a49b6-d46e-47c0-b8bc-25d8c0599a53"
+    },
+    {
+      "name": "Long Island Iced Tea",
+      "ingredients": ["vodka", "ron blanco", "ginebra", "tequila", "triple sec", "jugo de limón", "jarabe simple", "cola"],
+      "receipt": [
+        "En un vaso alto con hielo, combinar el vodka, el ron blanco, la ginebra, el tequila, el triple sec, el jugo de limón y el jarabe simple.",
+        "Revolver suavemente y completar con cola.",
+        "Adornar con una rodaja de limón."
+      ],
+      "history": "El Long Island Iced Tea es un cóctel clásico y potente que se originó en los años 70 o 80. A pesar de su nombre, no contiene té, pero su sabor se asemeja al del té helado.",
+      "tags": ["vaso alto", "variedad de licores", "fuerte"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/long_island_iced_tea.jpg?alt=media&token=8f8f0e1b-c8cf-49f6-9261-3ab41b2e33b5"
+    },
+    {
+      "name": "Tequila Sunrise",
+      "ingredients": ["tequila", "jugo de naranja", "granadina", "rodaja de naranja", "cereza"],
+      "receipt": [
+        "En un vaso alto con hielo, combinar el tequila y el jugo de naranja.",
+        "Revolver suavemente y añadir la granadina lentamente para que se asiente en el fondo del vaso.",
+        "Decorar con una rodaja de naranja y una cereza.",
+        "Servir sin revolver para mantener el efecto degradado del amanecer."
+      ],
+      "history": "El Tequila Sunrise es un cóctel clásico que se originó en los años 30 o 40. Su nombre se inspira en los hermosos amaneceres de color naranja en la costa oeste de México.",
+      "tags": ["vaso alto", "tequila", "frutal"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/tequila_sunrise.jpg?alt=media&token=bc6dcfbf-26c9-4743-b548-d64d8f3b79d0"
+    },
+    {
+      "name": "Pisco Sour",
+      "ingredients": ["pisco", "jugo de limón", "jarabe simple", "clara de huevo", "angostura"],
+      "receipt": [
+        "En una coctelera sin hielo, combinar el pisco, el jugo de limón, el jarabe simple y la clara de huevo.",
+        "Agitar enérgicamente durante unos segundos.",
+        "Agregar hielo a la coctelera y agitar nuevamente.",
+        "Colar la mezcla en un vaso bajo con hielo y añadir unas gotas de angostura por encima."
+      ],
+      "history": "El Pisco Sour es un cóctel peruano clásico que se remonta a principios del siglo XX. Es una bebida nacional en Perú y Chile, y su origen está sujeto a disputas entre ambos países.",
+      "tags": ["vaso bajo", "pisco", "agridulce"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/pisco_sour.jpg?alt=media&token=8fb711b4-40a5-49c3-a9fb-c3f14815e92f"
+    },
+    {
+      "name": "White Lady",
+      "ingredients": ["ginebra", "Cointreau", "jugo de limón", "clara de huevo"],
+      "receipt": [
+        "En una coctelera sin hielo, combinar la ginebra, el Cointreau, el jugo de limón y la clara de huevo.",
+        "Agitar enérgicamente durante unos segundos.",
+        "Agregar hielo a la coctelera y agitar nuevamente.",
+        "Colar la mezcla en una copa de cóctel previamente enfriada."
+      ],
+      "history": "La White Lady es un cóctel clásico que se remonta a principios del siglo XX. Su elegancia y sabor agridulce la convierten en una opción popular en bares de cócteles de todo el mundo.",
+      "tags": ["copa de cóctel", "ginebra", "agridulce"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/white_lady.jpg?alt=media&token=9f8710fc-93f5-4cc3-8494-7456e30c1de0"
+    },
+    {
+      "name": "Irish Coffee",
+      "ingredients": ["whisky irlandés", "café caliente", "azúcar morena", "crema batida"],
+      "receipt": [
+        "En una taza resistente al calor, combinar el whisky irlandés, el café caliente y el azúcar morena.",
+        "Revolver suavemente hasta que el azúcar se disuelva.",
+        "Cubrir con crema batida y servir caliente."
+      ],
+      "history": "El Irish Coffee es una bebida caliente que se originó en Irlanda en la década de 1940. Fue creado para calentar a los pasajeros en un aeropuerto en Shannon, Irlanda.",
+      "tags": ["taza caliente", "whisky", "caliente"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/irish_coffee.jpg?alt=media&token=ff70e91a-ef0a-4d1e-baf0-68d83c4f4966"
+    },
+    {
+      "name": "Whiskey Smash",
+      "ingredients": ["whisky bourbon", "lima", "azúcar blanca", "hojas de menta", "soda"],
+      "receipt": [
+        "En un vaso bajo, combinar las hojas de menta, el azúcar y el jugo de lima.",
+        "Machacar suavemente para liberar el aroma de la menta.",
+        "Agregar el whisky bourbon y llenar el vaso con hielo.",
+        "Revolver suavemente y completar con soda.",
+        "Decorar con una ramita de menta y una rodaja de lima."
+      ],
+      "history": "El Whiskey Smash es un cóctel clásico que se remonta al siglo XIX. Su sabor refrescante y agridulce lo convierte en una opción popular durante los meses más cálidos.",
+      "tags": ["vaso bajo", "whisky", "refrescante"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/whiskey_smash.jpg?alt=media&token=dad3e4ff-5b51-4a16-b0f8-19f332510b6f"
+    },
+    {
+      "name": "Boulevardier",
+      "ingredients": ["whisky bourbon", "vermut rojo", "Campari", "cáscara de naranja"],
+      "receipt": [
+        "En un vaso mezclador con hielo, combinar el whisky bourbon, el vermut rojo y el Campari.",
+        "Revolver o agitar la mezcla hasta que esté bien fría.",
+        "Colar la mezcla en una copa de cóctel previamente enfriada.",
+        "Adornar con una cáscara de naranja."
+      ],
+      "history": "El Boulevardier es un cóctel clásico similar al Negroni pero hecho con whisky en lugar de ginebra. Se cree que fue inventado en la década de 1920 en París por un expatriado estadounidense.",
+      "tags": ["copa de cóctel", "whisky", "amargo"],
+      "image": "https://firebasestorage.googleapis.com/v0/b/mixology-af57f.appspot.com/o/boulevardier.jpg?alt=media&token=2ef59a0a-0623-45e3-8464-ec6353525e8d"
+    }
+  ]
+  
