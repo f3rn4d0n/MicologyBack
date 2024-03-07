@@ -1,10 +1,11 @@
-from fastapi import APIRouter, HTTPException, Depends
+from fastapi import APIRouter, HTTPException, Query
 from fastapi.responses import JSONResponse
 #from sqlalchemy.ext.asyncio import AsyncSession
 from app.api.data import models, crud
 from app.api.data.models import Cocktail
 #from app.api.data.database import database, metadata
 import json
+import math
 
 router = APIRouter()
 
@@ -12,11 +13,24 @@ router = APIRouter()
 
 listRecipes = []
 
-
-
 @router.get("/cocktail")
-async def get_cocktail(): 
-  return listRecipes
+async def get_cocktail(
+  limit: int = Query(100, ge= 0),
+  page: int = Query(0, ge= 0),
+): 
+  origin = limit * (page - 1)
+  end = origin + limit
+  total_pages = (float(len(listRecipes)) / float(limit))
+  return {
+    "data": listRecipes[origin:end],
+    "pagination": {
+      "total": len(listRecipes),
+      "limit": limit,
+      "offset": origin,
+      "total_pages": math.ceil(total_pages),
+      "current_page": page
+    } 
+  }
   
 @router.post("/cocktail")
 async def create_cocktail(cocktail: Cocktail): 
